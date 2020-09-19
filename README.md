@@ -25,6 +25,7 @@ The structure of the respository is as follows:
 
 !The code stops running after plotting any figure -> To continue, please close the opened figure.
 
+!You can safely diregard any waring message from matplotlib. The overlapping figures produce these warning but they don't halt or affect the code in any way.
 
 0.1 First of all before takling any of the questions, the code import necessary libraries(from local environment)
 and data from the directory 'hw01'
@@ -92,6 +93,19 @@ The function 'pval' and 'file' are connected to each other. 'pval' execute the t
 Ii is IMPORTANT NOT to run these batches of code as the append attribute WONT overwrite the previous values.
 For these reason these lines of code have been deactivated.
 ||||||||||||||||||||||||||||||||||||||||
+
+For the bonus question the dataframes in use are:
+
+ttemp_a == dataframe of FORMATTED DATE-TIME and Temperature of sensor A
+ttemp_b == dataframe of FORMATTED DATE-TIME and Temperature of sensor B
+ttemp_c == dataframe of FORMATTED DATE-TIME and Temperature of sensor C
+ttemp_d == dataframe of FORMATTED DATE-TIME and Temperature of sensor D
+ttemp_e == dataframe of FORMATTED DATE-TIME and Temperature of sensor E
+Other dataframes are created in the code for better use
+
+The function 'data' groups the measumermnts by days and calculates and returns the mean Temperature. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For more information about the fucntions' inner workings see comments inside the code.
   
