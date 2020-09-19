@@ -18,7 +18,9 @@ The structure of the respository is as follows:
 -The file 'hypothesis_p_only.txt' contains the p-values of Temperature and Winds speed for sensor pairs specified in part 4.2
 
 
-~~~~~~~~~~~ Explaining the main code 'geo1001_hw01.py'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                        Explaining the main code 'geo1001_hw01.py' and additional code 'BonusQuestion.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !Inside the code there are multiple commnets to help the reader understand the reasoning of it.
 
 !The code runs and starts printing and plotting in an ascending order in respect to the 4 parts of the assignments.
