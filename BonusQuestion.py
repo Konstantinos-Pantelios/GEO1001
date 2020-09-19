@@ -156,9 +156,17 @@ all_df=all_df.join(j_e)
 
 all_df.plot.bar(x="Days",y=["Temperature_A","Temperature_B","Temperature_C","Temperature_D","Temperature_E"],subplots=True)
 plt.get_current_fig_manager().window.state('zoomed')
-plt.show()
+#plt.show()
 
 
 
 print("Max. Temperature in day:"+"\n",round(ttemp_a[ttemp_a["Temperature_A"]==all_df["Temperature_A"].max()].reset_index(drop=True),2))
 print("Min. Temperature in day:"+"\n",round(ttemp_a[ttemp_a["Temperature_A"]==all_df["Temperature_A"].min()].reset_index(drop=True),2))
+print("Max. Temperature in day:"+"\n",round(ttemp_b[ttemp_b["Temperature_B"]==all_df["Temperature_B"].max()].reset_index(drop=True),2))
+print("Min. Temperature in day:"+"\n",round(ttemp_b[ttemp_b["Temperature_B"]==all_df["Temperature_B"].min()].reset_index(drop=True),2))
+print("Max. Temperature in day:"+"\n",round(ttemp_c[ttemp_c["Temperature_C"]==all_df["Temperature_C"].max()].reset_index(drop=True),2))
+print("Min. Temperature in day:"+"\n",round(ttemp_c[ttemp_c["Temperature_C"]==all_df["Temperature_C"].min()].reset_index(drop=True),2))
+print("Max. Temperature in day:"+"\n",round(ttemp_d[ttemp_d["Temperature_D"]==all_df["Temperature_D"].max()].reset_index(drop=True),2))
+print("Min. Temperature in day:"+"\n",round(ttemp_d[ttemp_d["Temperature_D"]==all_df["Temperature_D"].min()].reset_index(drop=True),2))
+print("Max. Temperature in day:"+"\n",round(ttemp_e[ttemp_e["Temperature_E"]==all_df["Temperature_E"].max()].reset_index(drop=True),2))
+print("Min. Temperature in day:"+"\n",round(ttemp_e[ttemp_e["Temperature_E"]==all_df["Temperature_E"].min()].reset_index(drop=True),2))
