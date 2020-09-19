@@ -773,7 +773,7 @@ inte(df_a[lista[4]].astype(float),df_b[lista[4]].astype(float),df_c[lista[4]].as
 '''
 #################################################################################################################################################################
 
-### The below code is deactivated because whenever it runs is appends values into the created file "hypothesis.txt".
+### The below code is deactivated because whenever it runs is appends values into the created file "hypothesis_p_only.txt".
 '''
 def pval(a,b):
     """ Computes and returns the t and p values using the "ttest".
