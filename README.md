@@ -4,11 +4,17 @@ The current repository contains all the files related to the 1st assignment for 
 The structure of the respository is as follows:
 
 -The directory 'Graph' contains all of the figures and images that are used in the report as .png files
+
 -The directory hw01 contains all the necessary data that was used in the code. 
+
 -The file 'BonusQuestion.py' is a secondary python file thas is used to answer the bonus question.
+
 -The file 'README.md' is the current file containing the instructions.
+
 -The file 'confidence.txt' contains the 95% confidence intervals for variables Temperature and Wind Speed for all the sensors.
+
 -The file 'geo1001_hw01.py' is the main code of the excerice for the 4 parts (the bonus questions is in file 'BonusQuestion.py'
+
 -The file 'hypothesis_p_only.txt' contains the p-values of Temperature and Winds speed for sensor pairs specified in part 4.2
 
 
