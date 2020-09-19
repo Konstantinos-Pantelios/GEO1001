@@ -5,7 +5,7 @@ The structure of the respository is as follows:
 
 -The directory 'Graph' contains all of the figures and images that are used in the report as .png files
 
--The directory hw01 contains all the necessary data that was used in the code. 
+-The directory hw01 contains all the necessary data that were used in the code. 
 
 -The file 'BonusQuestion.py' is a secondary python file thas is used to answer the bonus question.
 
@@ -19,7 +19,7 @@ The structure of the respository is as follows:
 
 
 
-                        Explaining the main code 'geo1001_hw01.py' and additional code 'BonusQuestion.py'
+                     Explaining the main code 'geo1001_hw01.py' and additional code 'BonusQuestion.py'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !Inside the code there are multiple commnets to help the reader understand the reasoning of it.
 
