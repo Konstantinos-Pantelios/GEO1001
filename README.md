@@ -9,7 +9,7 @@ The structure of the respository is as follows:
 
 -The file 'BonusQuestion.py' is a secondary python file thas is used to answer the bonus question.
 
--The file Hw01_LaTeX.pdf is the Final report of the excerise in PDF from generated through LaTeX.
+-The file Hw01_PANTELIOS_KONSTANTINOS.pdf is the Final report of the excerise in PDF from generated through LaTeX.
 
 -The file Hw01_LaTeX.tex is the LaTeX code that generates the final report (the pdf file above).
 
@@ -25,7 +25,7 @@ The structure of the respository is as follows:
 
 
 
-                     Explaining the main code 'geo1001_hw01.py' and additional code 'BonusQuestion.py'
+              Explaining the main code 'geo1001_hw01.py' and additional code 'BonusQuestion.py'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !Inside the code there are multiple commnets to help the reader understand the reasoning of it.
 
