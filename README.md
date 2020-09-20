@@ -9,13 +9,19 @@ The structure of the respository is as follows:
 
 -The file 'BonusQuestion.py' is a secondary python file thas is used to answer the bonus question.
 
+-The file Hw01_LaTeX.pdf is the Final report of the excerise in PDF from generated through LaTeX.
+
+-The file Hw01_LaTeX.tex is the LaTeX code that generates the final report (the pdf file above).
+
 -The file 'README.md' is the current file containing the instructions.
 
 -The file 'confidence.txt' contains the 95% confidence intervals for variables Temperature and Wind Speed for all the sensors.
 
--The file 'geo1001_hw01.py' is the main code of the excerice for the 4 parts (the bonus questions is in file 'BonusQuestion.py'
+-The file 'geo1001_hw01.py' is the main code of the excerice for the 4 parts (the bonus questions is in file 'BonusQuestion.py')
 
 -The file 'hypothesis_p_only.txt' contains the p-values of Temperature and Winds speed for sensor pairs specified in part 4.2
+
+-The file reference.bib is used by the file Hw01_LaTeX.tex to introduce the citation of the data that were used to complete the assignment.
 
 
 
