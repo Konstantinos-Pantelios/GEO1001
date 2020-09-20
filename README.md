@@ -95,7 +95,7 @@ To plot the cumulative density function the code uses the fucntion 'cdf'. Like p
 4.1 For this part the code calls the function 'cdf_' which is a modified fucntion of the above 'cdf'. It plots the CDF for both Temperature and Wind Speed variable. It takes as inputs their dataframes.
 
 ||||__Attention for the next part__||||
-The function 'inte' computes the computes the 95% confidence intervals for the variables Temperature and Wind Speed and APPENDS them into the file 'confidence.txt'. It takes as inputs the dataframes of the variables
+The function 'inte' computes the 95% confidence intervals for the variables Temperature and Wind Speed and APPENDS them into the file 'confidence.txt'. It takes as inputs the dataframes of the variables
 The function 'pval' and 'file' are connected to each other. 'pval' execute the ttest function and returen the t and p values. 'file' APPENDS the p-value into the file 'hypothesis_p_only.txt'. The function accept as inputs the dataframe of the above variables but only for the specific pair of sensor each time (the pairs are specified in part 4.2).
 
 Ii is IMPORTANT NOT to run these batches of code as the append attribute WONT overwrite the previous values.
